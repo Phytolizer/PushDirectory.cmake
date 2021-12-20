@@ -18,6 +18,8 @@ push_directory_executable(
     LINKED_LIBRARIES "pthread"
 )
 ```
+There is also `push_directory_library` with identical argument structure.
+
 The directory structure is customizable:
 ```cmake
 push_directory_executable(
